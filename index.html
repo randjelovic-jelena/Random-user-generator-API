@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="Random user generator-API">
+  <meta name="author" content="Jelena Randjelovic">
+  <meta name="keywords" content="Random user, User, Generator, API">
+  <title>Random user generator-API</title>
+  <!--Logo-->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-----------------------
+    -------IMAGE BOX---------
+    -------------------------> 
+    <div class="user-image">
+      <img src="images/emma-image.jpg" alt="user image" class="main-img"/>
+    </div>
+     <!-----------------------
+    ------USER MAIN INFO------
+    ------------------------->
+    <div class="user-main-info">
+      <p class="user-name"><span class="name">User name</span></p>
+      <p class="user-country">
+        <span class="city">City</span>,
+        <span class="country">Country</span>
+      </p>
+    </div> 
+  
+    <!-----------------------
+    ---------ADDRESS---------
+    -------------------------> 
+    <div class="address-box">
+      <!--postcode-->
+      <div>
+        <p class="address-title">Postcode</p>
+        <p class="address-result postcode-number">number</p>
+      </div>
+      <!--street name-->
+      <div>
+        <p class="address-title">Street name</p>
+        <p class="address-result street-name">name</p>
+      </div>
+      <!--street number-->
+      <div>
+        <p class="address-title">Street number</p>
+        <p class="address-result street-number">number</p>
+      </div>
+    </div>
+  
+    <!-----------------------
+    ---------CONTACT---------
+    ------------------------->    
+    <div class="contact-box">
+      <!--number-->
+      <p class="phone-number">
+        Phone:
+        <span class="phone">numer</span>
+      </p>
+      <!--email-->
+      <p class="email-address">
+        Email:
+        <span class="email">email</span>
+      </p>
+    </div>
+    <!--NEW USER BUTTON-->
+    <button type="button" id="get-new-user">Get new user</button>
+  
+  </div><!--container-end-->
+  
+  
+  
+  
+ <!--JavaScript File-->
+ <script src="js/main.js"></script>
+</body>
+</html>
